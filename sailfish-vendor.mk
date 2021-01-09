@@ -829,3 +829,9 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qti-vzw-ims-internal \
     rcsservice
+
+#VNDK
+PRODUCT_COPY_FILES += \
+    vendor/google/marlin/vndk-dex/libdexfile_support-v30-arm.so:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.vndk.current/lib/libdexfile_support.so \
+    vendor/google/marlin/vndk-dex/libdexfile_support-v30-arm64.so:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.vndk.current/lib64/libdexfile_support.so \
+    vendor/google/marlin/vndk-dex/vndksp.libraries.30.txt:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.vndk.current/etc/vndksp.libraries.30.txt
