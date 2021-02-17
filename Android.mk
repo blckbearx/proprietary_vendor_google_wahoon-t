@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),marlin)
+ifneq ($(filter marlin sailfish, $(TARGET_DEVICE)),)
 
 endif
