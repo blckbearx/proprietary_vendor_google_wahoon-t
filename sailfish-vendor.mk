@@ -234,7 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/rcsservice.xml \
     vendor/google/marlin/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/google/marlin/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/google/marlin/proprietary/vendor/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml \
+    vendor/google/marlin/proprietary/vendor/etc/qdcm_calib_data_S1_FHD_SAMSUNG_EA8064TG_5.0_command_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_S1_FHD_SAMSUNG_EA8064TG_5.0_command_mode_panel.xml \
     vendor/google/marlin/proprietary/vendor/etc/qfipsverify/bootimg.hmac:$(TARGET_COPY_OUT_VENDOR)/etc/qfipsverify/bootimg.hmac \
     vendor/google/marlin/proprietary/vendor/etc/qfipsverify/qfipsverify.hmac:$(TARGET_COPY_OUT_VENDOR)/etc/qfipsverify/qfipsverify.hmac \
     vendor/google/marlin/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
@@ -354,7 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
     vendor/google/marlin/proprietary/vendor/firmware/slpiver.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/slpiver.cfg \
     vendor/google/marlin/proprietary/vendor/firmware/synaptics_bl71.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_bl71.img \
-    vendor/google/marlin/proprietary/vendor/firmware/synaptics_bl77.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_bl77.img \
     vendor/google/marlin/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/google/marlin/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
     vendor/google/marlin/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
@@ -659,7 +658,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/google/marlin/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/google/marlin/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/google/marlin/proprietary/vendor/lib64/hw/fingerprint.marlin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.marlin.so \
+    vendor/google/marlin/proprietary/vendor/lib64/hw/fingerprint.sailfish.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.sailfish.so \
     vendor/google/marlin/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/google/marlin/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8996.so \
     vendor/google/marlin/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
